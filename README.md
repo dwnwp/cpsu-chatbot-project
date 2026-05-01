@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/dwnwp/cpsu-chatbot-project.git
    cd cpsu-chatbot-project
    ```
 
