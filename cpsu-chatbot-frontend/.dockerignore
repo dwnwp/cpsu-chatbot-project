@@ -1,0 +1,47 @@
+temp_uploads/
+**/temp_uploads/
+docker_volumes/
+
+# --- [ Programming Languages ] ---
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Go
+bin/
+obj/
+
+# Node.js (Frontend)
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+.eslintcache
+
+# --- [ Environment & Secrets ] ---
+.env
+.env.local
+.env.*
+.git/
+.gitignore
+
+# --- [ OS & Editors ] ---
+.DS_Store
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sw?
+*.exe
+*.log
+
+# --- [ Testing ] ---
+coverage/
+/cypress/videos/
+/cypress/screenshots/
+__screenshots__/
+
+.agent
+.agents
+skills-lock.json
